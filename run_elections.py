@@ -26,7 +26,6 @@ sparky = SummerTemplateBot2026(
     llms={
         "default": GeneralLlm(
             model="anthropic/claude-opus-4-8",
-            temperature=0.3,
             timeout=60,
             allowed_tries=2,
         ),
